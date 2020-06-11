@@ -32,46 +32,40 @@
 
 	<body>
 		<!-- Company logo to be placed  here -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light bg-header title">
-			<a class="navbar-brand" href="#">Hotel Name</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto home">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html"
-							>Home <span class="sr-only">(current)</span></a
-						>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="rooms.html"
-							>Rooms <span class="sr-only">(current)</span></a
-						>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="facilities.html"
-							>Facilities <span class="sr-only">(current)</span></a
-						>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="contactus.html"
-							>Contact Us <span class="sr-only">(current)</span></a
-						>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
+		<header class="container">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="#">Logo</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+	
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto nav-list">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="rooms.html">Rooms</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="facilities.html">Facilities</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactus.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		
 		<!-- Carousel starts here -->
 
 		<section class="relative">
@@ -179,7 +173,7 @@
 		</section>	
 
 		<section class="container py-5">
-			<h4 class="page-title text-center"><i class="fas fa-info-circle"></i>FACILITIES</h4>
+			<h2 class="page-info text-center"><i class="fas fa-dot-circle"></i>FACILITIES</h2>
 			<div class="row">
 				<div class="col-lg-4">
 					<figure class="card">
