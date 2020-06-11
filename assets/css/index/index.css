@@ -11,10 +11,12 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 .nav-list li {
 	margin-right: 40px;
-	/* font-size: 20px; */
+
 }
+
 .nav-item a:hover {
 	color: #06a7df !important;
 }
@@ -22,6 +24,7 @@
 .text-color {
 	color: #06a7df !important;
 }
+
 .bg-color {
 	background-color: #06a7df !important;
 }
@@ -34,6 +37,12 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .text-black {
 	color: black !important;
 }
+
+footer .nav-item a:hover {
+    color: rgba(255,255,255,.75) !important;
+} 
+

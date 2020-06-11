@@ -11,10 +11,15 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.carousel-caption{
+	bottom: 45%;
+}
+
 .nav-list li {
 	margin-right: 40px;
-	/* font-size: 20px; */
 }
+
 .nav-item a:hover {
 	color: #06a7df !important;
 }
@@ -22,6 +27,7 @@
 .text-color {
 	color: #06a7df !important;
 }
+
 .bg-color {
 	background-color: #06a7df !important;
 }
@@ -34,6 +40,30 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .text-black {
 	color: black !important;
 }
+
+.btn-site {
+	background: #f4821e;
+	color: #fff;
+}
+
+.contact-form {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.form-control {
+	background: #E5E5E5;
+}
+
+.form-control:focus {
+	background: #E5E5E5;
+}
+
+footer .nav-item a:hover {
+    color: rgba(255,255,255,.75) !important;
+} 
+

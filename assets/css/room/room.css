@@ -5,31 +5,27 @@
 .active {
 	color: #06a7df !important;
 }
-/* .nav-list {
-	/* text-align: center;
-	font-weight: bolder !important;
-}  */
+
 .nav-list li {
 	margin-right: 40px;
-	/* font-size: 20px; */
 }
-/* .nav-item a {
-	color: black !important;
-} */
+
 .nav-item a:hover {
 	color: #06a7df !important;
 }
+
 .col-md-4 a {
-	/*color: #ffff;*/
 	text-decoration: none;
 }
 
 .footer-icons {
 	margin-left: 46px;
 }
+
 .footer-icons i {
 	margin-right: 20px;
 }
+
 .footer-details a:hover {
 	color: #1fcfc6 !important;
 }
@@ -51,9 +47,12 @@
 	color: black;
 }
 
-/*@media screen and (max-width: 480px) {
-  #display{
-    display: none!important;
-  }
+.text-black {
+	color: black !important;
 }
-*/
+
+footer .nav-item a:hover {
+    color: rgba(255,255,255,.75) !important;
+} 
+
+
