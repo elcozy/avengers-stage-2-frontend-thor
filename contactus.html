@@ -43,8 +43,7 @@
 					<nav class="navbar navbar-light navbar-expand-md">
 						<!-- Brand -->
 						<a class="navbar-brand text-dark" href="#">
-							<!-- <img src="Resources/logo2.png" style="width: 80px"> -->
-							Logo
+							<img src="img/Octavian-logo.png" style="width: 120px">	
 						</a>
 
 						<button
@@ -58,22 +57,19 @@
 						<!-- Navbar links -->
 						<div class="collapse navbar-collapse" id="collapsibleNavbar">
 							<ul class="navbar-nav text-white ml-auto nav-list">
-								<li class="nav-item">
+								<li class="nav-item text-black">
 									<a class="nav-link" href="./index.html">Home</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item text-black">
 									<a class="nav-link" href="./rooms.html">Rooms</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item text-black">
 									<a class="nav-link" href="./facilities.html">Facilities</a>
 								</li>
-								<li class="nav-item">
+								<li class="nav-item text-black">
 									<a class="nav-link active" href="./contactus.html"
 										>Contact Us</a
 									>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">About Us</a>
 								</li>
 							</ul>
 						</div>
@@ -93,7 +89,11 @@
 								style="
 									background-image: url(./img/a-simple-bedroom-3659683.jpg);
 								"
-							></div>
+							>
+								<div class="carousel-caption d-none d-md-block">
+									<h1 class="display-4">CONTACT US</h1>
+								</div>
+							</div>
 							<!-- Slide Two - Set the background image for this slide in the line below -->
 							<div
 								class="carousel-item"
@@ -183,10 +183,10 @@
 			<div>
 				<!-- Contact us  -->
 				<section id="contact_us" class="container my-5">
-					<form>
+					<form class="contact-form">
 						<div class="form-row">
-							<div class="form-group col-md-6">
-								<label for="inputEmail4">First Name</label>
+							<div class="form-group col-md-6 pr-md-3">
+								<label class="sr-only" for="inputEmail4">First Name</label>
 								<input
 									type="text"
 									class="form-control"
@@ -194,8 +194,8 @@
 									placeholder="First Name"
 								/>
 							</div>
-							<div class="form-group col-md-6">
-								<label for="inputPassword4">Last Name</label>
+							<div class="form-group col-md-6 pl-md-3">
+								<label class="sr-only" for="inputPassword4">Last Name</label>
 								<input
 									type="text"
 									class="form-control"
@@ -205,7 +205,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="inputAddress">Email</label>
+							<label class="sr-only" for="inputAddress">Email</label>
 							<input
 								type="email"
 								class="form-control"
@@ -214,7 +214,7 @@
 							/>
 						</div>
 						<div class="form-group">
-							<label for="inputAddress2">Subject</label>
+							<label class="sr-only" for="inputAddress2">Subject</label>
 							<input
 								type="text"
 								class="form-control"
@@ -223,31 +223,33 @@
 							/>
 						</div>
 						<div class="form-group">
-							<label for="inputAddress2">Message</label>
+							<label class="sr-only" for="inputAddress2">Message</label>
 							<textarea
 								col="8"
 								rows="8"
 								type="text"
 								class="form-control"
 								id="inputAddress2"
-								placeholder="Type your message"
+								placeholder="Message"
 							></textarea>
 						</div>
 
-						<button type="submit" class="btn btn-primary">Send</button>
+						<div class="text-right">
+							<button type="submit" class="btn btn-site px-5">Send</button>
+						</div>
+						
 					</form>
 				</section>
 			</div>
 
-			<!-- footer -->
 			<!-- footer -->
 			<footer class="py-3 bg-color">
 				<nav class="navbar navbar-dark navbar-expand-md container">
 					<!-- Brand -->
 
 					<!-- Navbar links -->
-					<div class="text-black navbar-collapse" id="collapsibleNavbar">
-						<ul class="navbar-nav text-white mr-auto">
+					<div class="navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav mr-auto">
 							<li class="nav-item">
 								<a class="nav-link text-black" href="#">About us</a>
 							</li>
@@ -262,7 +264,7 @@
 							</li>
 						</ul>
 
-						<div class="">
+						<div class="mt-4 mt-md-0">
 							<p class="">Subscribe for more info</p>
 							<ul class="navbar-nav">
 								<form class="form-inline">
@@ -273,13 +275,7 @@
 											name="search"
 											placeholder="Email"
 										/>
-										<button
-											style="background-color: #f4821e;"
-											name="searchButton"
-											class="btn btn-info"
-										>
-											Subscribe
-										</button>
+										<button name="searchButton" class="btn btn-site">Subscribe</button>
 									</div>
 								</form>
 							</ul>
