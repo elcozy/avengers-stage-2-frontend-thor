@@ -33,6 +33,7 @@
 	background: url(../../../img/architecture-hall-hallway-interior-design-53464.jpg);
 	height: 50vh;
 	width: 100vw;
+	max-width: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
