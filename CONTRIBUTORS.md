@@ -18,3 +18,5 @@
 -  [@joshkhama](https://github.com/joshkhama)
 
 -  [@davidoluseun](https://github.com/davidoluseun)
+
+-  [@tooluloope](https://github.com/tooluloope)
