@@ -1,17 +1,21 @@
-.bg-header {
-  background: #06a7df !important;
+.nav-list li {
+	margin-right: 40px;
+}
+
+.active {
+	color: #06a7df !important;
 }
 
 .carousel-caption{
   bottom: 45%;
 }
 
-.page-title {
+.page-info {
   color: #06a7df;
   padding-bottom: 2rem;
 }
 
-.page-title i {
+.page-info i {
   margin-right: .5rem;
 }
 
