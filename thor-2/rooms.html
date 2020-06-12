@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/71848b9ac7.js" crossorigin="anonymous"></script>
+	<title>Rooms</title>
+	<link rel="stylesheet"  type = "text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo-div">
+			<span id="hotel-name"><span id="octavian">Octavian</span> <span id="hotels-tag">HOTELS</span></span>
+		</div>
+		<div class="nav-div" id="nav-div">
+	<a href="index.html" >Home</a>
+	<a href="rooms.html" class="active">Rooms</a>
+	<a href="facilities.html" >Facilities</a>
+	<a href="contact.html" >Contact Us</a>
+	<a href="" >About Us</a>
+   	<a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+    	<i class="fa fa-bars"></i>
+  	</a>
+  </div>
+  	</header>
+	<!-- image  gallery -->
+	<div class="image-gallery">
+ 		   <div class="slide">
+		    <img src="media/img/bed-with-white-bed-sheet-and-pillowcase-set-1267438.jpg" style="max-width:100%">
+		    <div class="caption">ROOMS</div>
+		  </div>
+
+		  <div class="slide">
+		    <img src="media/img/architecture-hall-hallway-interior-design-53464.jpg" style="max-width:100%">
+		    <div class="caption">FACILITIES</div>
+		  </div>
+
+		  <div class="slide">
+		    <img src="media/img/black-outdoor-lounge-chair-in-between-blue-swimming-pool-189296.jpg" style="max-width:100%">
+		    <div class="caption">CONTACT US</div>
+		  </div>
+		  
+ 		  <div class="slide">
+		    <img src="media/img/body-of-water-near-buildings-1134176.jpg" style="max-width:100%">
+		  </div>
+
+		 <!-- THIS IS THE FORM ON THE GALLERY -->
+				<form action="" class="form-holder">
+					<div class="curved left">
+						<div class="dropdown">
+							<button class="dropbtn">Select a Room<i class="fa fa-caret-down"></i></button>
+								<div class="dropdown-content">
+									<a href="#">Single Room</a>
+									<a href="#">Double Room</a>
+									<a href="#">Family Room</a>
+									<a href="#">Suite</a>
+								</div>	
+							</div>
+					</div>
+						<div class="box"><a href="#">10/06/2020<i class="far fa-calendar-alt"></i></a></div>
+						<div class="box"><a href="#">10/06/2020<i class="far fa-calendar-alt"></i></a></div>
+						<div class="curved right"><a href="#">View Rates<i class="fa fa-caret-right"></i></a></div>	
+				</form>
+				<!-- FORM ENDS -->
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+		  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- ROOMS SECTION -->
+	<h2 style="color: #0099ff">
+		<img src="media/img/dot-1.png" width=100 height="100" alt="alt text">ROOMS
+	</h2>
+<section class="rooms-card-holder">
+
+	<!-- ROOM CARD DESIGN -->
+	<div class="room-card">
+		<div class="card-image">
+			<img src="./media/img/a-simple-bedroom-3659683.jpg" alt="room">
+		</div>
+
+		<div class="card-content">
+			<div class="card-info">
+				<h2>SINGLE ROOM</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+			<div class="card-price">
+				<h2>$70,000</h2>
+				<button>SELECT</button>
+			</div>
+		</div>
+	</div>
+
+    <div class="room-card">
+		<div class="card-image">
+			<img src="./media/img/Twin-Room.jpg" alt="room">
+		</div>
+
+		<div class="card-content">
+			<div class="card-info">
+				<h2>DOUBLE ROOM</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+			<div class="card-price">
+				<h2>$80,000</h2>
+				<button>SELECT</button>
+			</div>
+		</div>
+    </div>
+
+    <div class="room-card">
+		<div class="card-image">
+			<img src="./media/img/black-and-grey-bedspread-on-bed-and-pillow-164595.jpg" alt="room">
+		</div>
+
+		<div class="card-content">
+			<div class="card-info">
+				<h2>FAMILY ROOM</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+			<div class="card-price">
+				<h2>$85,000</h2>
+				<button>SELECT</button>
+			</div>
+		</div>
+    </div>
+    
+    <div class="room-card">
+		<div class="card-image">
+			<img src="./media/img/apartment-bed-bedroom-book-shelves-439227.jpg" alt="room">
+		</div>
+
+		<div class="card-content">
+			<div class="card-info">
+				<h2>SUITE</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+			<div class="card-price">
+				<h2>$70,000</h2>
+				<button>SELECT</button>
+			</div>
+		</div>
+    </div>    
+</section> 
+<!-- ROOMS SECTION END -->
+	<!--Start of footer design implementation-->
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <a id="foot-items" href="#">ABOUT US |</a>
+            <a id="foot-items" href="#">SERVICES |</a>
+            <a id="foot-items" href="#">BOOKINGS |</a>
+            <a id="foot-items" href="#">CONTACT US </a>
+        </div>
+        <div class="right-col">
+            
+            <form action="" class="newsletter-form">
+                <label for="submit">Subscribe for more info:</label> <br>
+                <input type="text" class="txtb" id="txtb" placeholder="Email" required>
+                <input type="submit" class="btn" value="Subscribe">
+            </form>
+        </div>
+    </div>
+    <hr>
+
+</footer>
+<!--End of footer design HTML implementation-->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
